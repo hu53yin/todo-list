@@ -1,0 +1,19 @@
+.task {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: grab;
+  }
+  
+  .task:hover {
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
