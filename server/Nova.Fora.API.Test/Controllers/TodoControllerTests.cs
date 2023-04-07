@@ -78,7 +78,7 @@ namespace Nova.Fora.API.Test.Controllers
 
             var result = _controller.AddTodo(model);
 
-            Assert.IsType<OkResult>(result);
+            Assert.IsType<CreatedResult>(result);
         }
 
         [Fact]
@@ -107,7 +107,7 @@ namespace Nova.Fora.API.Test.Controllers
 
             var result = _controller.UpdateTodoType(model);
 
-            Assert.IsType<OkResult>(result);
+            Assert.IsType<NoContentResult>(result);
         }
 
         [Fact]
@@ -174,7 +174,7 @@ namespace Nova.Fora.API.Test.Controllers
 
             var result = todoController.UpdateTodoType(model);
 
-            Assert.IsType<OkResult>(result);
+            Assert.IsType<NoContentResult>(result);
         }
 
     }
